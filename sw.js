@@ -1,4 +1,4 @@
-const cacheName = 'MorseEmit-v0.1.0'
+const cacheName = 'MorseEmit-v0.2.0'
 const cacheUrls = [
   './',
   'index.html',
