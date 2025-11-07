@@ -1,10 +1,10 @@
 {
-  "name": "NowDraw-v1.0.1",
-  "short_name": "NowDraw",
+  "name": "MorseEmit-v0.1.0",
+  "short_name": "MorseEmit",
   "theme_color": "#000000",
   "background_color": "#303030",
   "display": "standalone",
-  "description": "Handwriging memo app without save, just for telling by drawing",
+  "description": "Emit Morse code with camera light",
   "scope": "./",
   "start_url": "./index.html",
   "icons": [

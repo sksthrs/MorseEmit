@@ -1,4 +1,4 @@
-const cacheName = 'NowDraw-v1.0.3'
+const cacheName = 'MorseEmit-v0.1.0'
 const cacheUrls = [
   './',
   'index.html',
