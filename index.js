@@ -134,6 +134,9 @@ document.addEventListener('DOMContentLoaded', (ev) => {
   }
 
   function stopEmitting() {
+    if (timerId >= 0) {
+      clearTimeout(timerId);
+    }
     _phraseInput.disabled = false;
     _emitButton.textContent = "発光！";
     _app.style.backgroundColor = '#000000';
@@ -229,8 +232,10 @@ document.addEventListener('DOMContentLoaded', (ev) => {
   }
 
   function intervalHandler() {
+    timerId = -1;
     if (phrase.length < 1) {
       initEmitting();
+      turnOff();
       return;
     }
 
