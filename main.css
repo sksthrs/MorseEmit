@@ -51,3 +51,7 @@ input {
   justify-content: space-evenly;
   background-color: black;
 }
+
+#phrase {
+  max-width: 60%;
+}
