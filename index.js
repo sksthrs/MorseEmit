@@ -137,6 +137,7 @@ document.addEventListener('DOMContentLoaded', (ev) => {
     _phraseInput.disabled = false;
     _emitButton.textContent = "発光！";
     _app.style.backgroundColor = '#000000';
+    turnOff();
   }
 
   /**
