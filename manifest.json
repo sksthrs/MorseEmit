@@ -1,0 +1,22 @@
+{
+  "name": "NowDraw-v1.0.1",
+  "short_name": "NowDraw",
+  "theme_color": "#000000",
+  "background_color": "#303030",
+  "display": "standalone",
+  "description": "Handwriging memo app without save, just for telling by drawing",
+  "scope": "./",
+  "start_url": "./index.html",
+  "icons": [
+    {
+      "src": "icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
